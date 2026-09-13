@@ -56,8 +56,8 @@ nxc smb ~/targets.txt           # File
 -p 'P@ss!'           # Always quote special chars
 -p='-P@ss'           # Use = for passwords starting with -
 
--H 'NTHASH'                              # NT hash only
--H 'LM:NT'                              # Full NTLM hash
+-H 'NTHASH'          # NT hash only
+-H 'LM:NT'           # Full NTLM hash
 -H 'aad3b435b51404eeaad3b435b51404ee:NTHASH'
 
 -id <cred_id>        # Use credential from nxcdb
